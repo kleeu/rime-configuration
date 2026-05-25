@@ -1,0 +1,7 @@
+# 针对 squirrel 界面的用户配置文件
+# encoding: utf-8
+# ~/Library/Rime/squirrel.custom.yaml
+
+patch:
+  "style/color_scheme": native          # 浅色模式配色方案
+  "style/color_scheme_dark": native     # 深色模式配色方案

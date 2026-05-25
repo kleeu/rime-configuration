@@ -1,0 +1,11 @@
+*
+!*/
+
+plum/
+
+!/README.md
+!/.gitignore
+
+!/*.custom.yaml
+!/custom_phrase.txt
+!/lua/custom/**
