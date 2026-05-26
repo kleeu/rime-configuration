@@ -8,15 +8,17 @@ Rime 输入法的个人配置仓库。目前仅在 macOS 上使用。
 
 ```
 .
-├── *.custom.yaml        # 用于覆盖上游方案的自定义配置
-├── custom_phrase.txt    # 自定义短语
+├── custom_dicts/        # 自定义词库
 ├── lua
 |   └── custom/          # 自定义 Lua 脚本目录
+├── .gitignore
 ├── README.md
-└── .gitignore
+├── custom_phrase.txt    # 自定义短语
+└── *.custom.yaml        # 用于覆盖上游方案的自定义配置
+
 ```
 
-本仓库需要直接被克隆到 `~/Library/Rime` 目录下，完成配置时， `~/Library/Rime` 应当形如：
+本仓库需要直接被安装到 `~/Library/Rime` 目录下，完成配置时， `~/Library/Rime` 应当形如：
 
 ```
 ~/Library/Rime/
@@ -123,8 +125,12 @@ bash plum/rime-install iDvel/rime-ice
 | `squirrel.custom.yaml` | 鼠鬚管界面 | 配色方案 |
 | `custom_phrase.txt` | 全局 | 自定义短语 |
 
+自定义词库：
+| 文件 | 用途 |
+|------|------|
+| `latex_symbols.txt` | 常用 LaTeX 符号 |
 自定义 Lua：
 
 | 文件 | 用途 |
 |------|------|
-| `date_traslator.lua` | 在原版 lua 中删除了一些快捷输入方式
+| `date_traslator.lua` | 在原版 lua 中删除了一些快捷输入方式 |

@@ -8,4 +8,5 @@ plum/
 
 !/*.custom.yaml
 !/custom_phrase.txt
+!/custom_dicts/**
 !/lua/custom/**

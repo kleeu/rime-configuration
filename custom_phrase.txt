@@ -26,5 +26,3 @@
 噷	hm
 呣	m
 呒	m
-
-LaTeX latex
