@@ -12,7 +12,7 @@ local M = {}
 
 function M.init(env)
     local config = env.engine.schema.config
-    env.name_space = env.name_space:gsub('^*', '')
+    env.name_space = env.name_space:match('[%w_]+$')  -- 取最后一段文件名作为命名空间
     M.date = config:get_string(env.name_space .. '/date') or 'rq'
     M.time = config:get_string(env.name_space .. '/time') or 'sj'
     M.week = config:get_string(env.name_space .. '/week') or 'xq'
