@@ -82,7 +82,8 @@ bash plum/rime-install iDvel/rime-ice
 cd ~/Library/Rime
 git init
 git remote add origin https://github.com/kleeu/rime-configuration.git
-git pull origin main
+git fetch origin
+git switch -c main --track origin/main
 ```
 
 ### 同步配置
