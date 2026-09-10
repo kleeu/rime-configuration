@@ -66,6 +66,7 @@ Rime 输入法的个人配置仓库。目前仅在 macOS 上使用。
 # 安装鼠鬚管发行版
 brew install --cask squirrel
 # 安装 plum 包管理器
+cd ~/Library/Rime
 curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
 # 使用 plum 安装上游方案
 cd ~/Library/Rime
